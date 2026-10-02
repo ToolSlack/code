@@ -2,6 +2,8 @@
 
 # ToolSlack: Exploiting Tool Execution Windows for Efficient LLM Agent Serving
 
+[Project home](https://github.com/ToolSlack) · [Code](https://github.com/ToolSlack/code)
+
 ToolSlack schedules native agent memory and exact-prefix KV preparation during
 real tool execution. At tool return, the agent immediately uses a verified ready
 candidate or falls back to its current context. This repository packages the
