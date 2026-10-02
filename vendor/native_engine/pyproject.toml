@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==80.10.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sglang"
+version = "0.1.dev33+g46ef0661e"
+description = "Frozen SGLang engine source with ToolSlack scheduler-owned KV controls"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["python"]
+include = ["sglang*"]

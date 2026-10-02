@@ -1,0 +1,68 @@
+{
+  "calibration_task_ids": [
+    "5a87bd4e5542996432c57279",
+    "5adfa22655429942ec259ac4",
+    "5ae72ca35542991e8301cb92",
+    "5a85a37d5542997175ce1fe5",
+    "5adfff0755429925eb1afbce",
+    "5ab7f97a5542991d322237ef"
+  ],
+  "claim": "Archived exploratory V4 long-context diagnostic cohort; not verified as the paper cohort.",
+  "datasets": {
+    "langgraph": {
+      "stages": {
+        "pilot": {
+          "task_ids": [
+            "5ae5be02554299546bf82f3e",
+            "5ae5a0765542992663a4f1fb",
+            "5a87ab905542996e4f3088c1",
+            "5ae7eb3c5542994a481bbe20",
+            "5a9042825542990a984935d6",
+            "5a8bf0835542995d1e6f146b",
+            "5a808f3f5542992097ad2ffd",
+            "5a8f495c5542997ba9cb3220",
+            "5ab2f6bd554299166977415e",
+            "5a722a6855429971e9dc9320",
+            "5a7b68a75542997c3ec97153",
+            "5adbe2c65542996e68525274",
+            "5a8f122955429918e830d17f",
+            "5ab56e32554299637185c594",
+            "5ab266b5554299340b5254b4",
+            "5a760ab65542994ccc918697"
+          ]
+        },
+        "smoke": {
+          "task_ids": [
+            "5a87bd4e5542996432c57279",
+            "5adfa22655429942ec259ac4",
+            "5ae72ca35542991e8301cb92",
+            "5a85a37d5542997175ce1fe5",
+            "5adfff0755429925eb1afbce",
+            "5ab7f97a5542991d322237ef"
+          ]
+        }
+      }
+    }
+  },
+  "evaluation_task_ids": [
+    "5ae5be02554299546bf82f3e",
+    "5ae5a0765542992663a4f1fb",
+    "5a87ab905542996e4f3088c1",
+    "5ae7eb3c5542994a481bbe20",
+    "5a9042825542990a984935d6",
+    "5a8bf0835542995d1e6f146b",
+    "5a808f3f5542992097ad2ffd",
+    "5a8f495c5542997ba9cb3220",
+    "5ab2f6bd554299166977415e",
+    "5a722a6855429971e9dc9320",
+    "5a7b68a75542997c3ec97153",
+    "5adbe2c65542996e68525274",
+    "5a8f122955429918e830d17f",
+    "5ab56e32554299637185c594",
+    "5ab266b5554299340b5254b4",
+    "5a760ab65542994ccc918697"
+  ],
+  "schema": "toolslack.public-cohort.v1",
+  "seed": 20260930,
+  "selection": "largest real official input-context character lengths; label/outcome blind cohort"
+}

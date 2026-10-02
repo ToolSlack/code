@@ -1,0 +1,8 @@
+-r cpu.in
+langmem==0.0.30
+langchain-core==1.6.4
+httpx==0.28.1
+transformers==5.12.1
+pyarrow==21.0.0
+jinja2==3.1.6
+ujson==5.10.0

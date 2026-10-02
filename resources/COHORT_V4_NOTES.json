@@ -1,0 +1,71 @@
+{
+  "archived_config_sha256": "9adcd77b209fe295034fbcab93c684c5204cd7a94864a65b4650a1013c7c586f",
+  "calibration_count": 6,
+  "calibration_task_ids": [
+    "5a87bd4e5542996432c57279",
+    "5adfa22655429942ec259ac4",
+    "5ae72ca35542991e8301cb92",
+    "5a85a37d5542997175ce1fe5",
+    "5adfff0755429925eb1afbce",
+    "5ab7f97a5542991d322237ef"
+  ],
+  "claim": "Exact archived exploratory ToolSlack V4 cohort. No evidence establishes it as the original paper cohort.",
+  "cohort_file": "cohort-v4-experimental.json",
+  "cohort_sha256": "087c15474191c0604270770c080af9f7f5455f96620939a389bdea968e10b0a7",
+  "dataset": {
+    "canonical_inputs_sha256": "87b12a61218b2b8d126ea1954437a2be47e10b4301464063f163a1eb0b90231c",
+    "canonical_matches_original_remote_inputs": true,
+    "canonical_rule": "Sort all rows by _id; retain only _id/question/context; JSON sort_keys=True, compact separators, UTF-8 with ensure_ascii=False",
+    "configuration": "distractor",
+    "ordered_selected_inputs_sha256": "397f9ab8224b602a42e929926bebf0f860e695f814fec99d56b98b4e4e629143",
+    "parquet_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "repository": "hotpotqa/hotpot_qa",
+    "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+    "row_count": 7405,
+    "split": "validation"
+  },
+  "default_cohort_changed": false,
+  "evaluation_count": 16,
+  "evaluation_task_ids": [
+    "5ae5be02554299546bf82f3e",
+    "5ae5a0765542992663a4f1fb",
+    "5a87ab905542996e4f3088c1",
+    "5ae7eb3c5542994a481bbe20",
+    "5a9042825542990a984935d6",
+    "5a8bf0835542995d1e6f146b",
+    "5a808f3f5542992097ad2ffd",
+    "5a8f495c5542997ba9cb3220",
+    "5ab2f6bd554299166977415e",
+    "5a722a6855429971e9dc9320",
+    "5a7b68a75542997c3ec97153",
+    "5adbe2c65542996e68525274",
+    "5a8f122955429918e830d17f",
+    "5ab56e32554299637185c594",
+    "5ab266b5554299340b5254b4",
+    "5a760ab65542994ccc918697"
+  ],
+  "gpu_operations": 0,
+  "input_selection": "long-context",
+  "model_calls": 0,
+  "note": "This optional frozen cohort reproduces the V4 input selection only. It does not assert paper task identity or reproduce performance without a new native calibration and actual measurement.",
+  "offline_helper_validation": {
+    "disjoint": true,
+    "gold_absent_from_agent_inputs": true,
+    "passed": true,
+    "read_tasks_calibration_count": 6,
+    "read_tasks_evaluation_count": 16,
+    "subset_ids_exact_order": true
+  },
+  "reconstructed_from_public_inputs_matches_archived_ids_exactly": true,
+  "schema": "toolslack.archived-v4-cohort-provenance.v1",
+  "seed": 20260930,
+  "selection_rule": "largest real official input-context character lengths; label/outcome blind cohort",
+  "usage": [
+    "--subsets",
+    "resources/cohort-v4-experimental.json",
+    "--cal-tasks",
+    "6",
+    "--eval-tasks",
+    "16"
+  ]
+}

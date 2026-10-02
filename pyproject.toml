@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toolslack"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Deadline-bounded native agent memory and exact-prefix SGLang serving"
+dependencies = []
+
+[project.optional-dependencies]
+http = ["aiohttp>=3.9"]
+langgraph = ["langgraph", "langmem==0.0.30", "langchain-core", "httpx"]
+
+[tool.setuptools.packages.find]
+include = ["toolslack*"]
+

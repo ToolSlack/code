@@ -1,0 +1,8 @@
+Use case: logo-brand
+Asset type: ToolSlack research system logo for a systems paper and GitHub README
+Primary request: Create one polished original horizontal logo on a genuinely transparent background. Combine an abstract tool or branch-execution motif with a time-window motif in a simple left-hand mark, followed by the exact wordmark "ToolSlack".
+Style/medium: Flat, clean, vector-friendly raster logo with sharp edges, minimal geometry, professional academic systems identity, highly readable at small sizes.
+Composition/framing: One compact horizontal lockup, icon on the left and wordmark on the right, balanced optical alignment and modest transparent padding. Make the mark simple enough to function independently.
+Color palette: Deep navy wordmark, teal or turquoise primary mark, a small warm orange accent only where it clarifies the time-window idea.
+Text (verbatim): "ToolSlack" — uppercase T and uppercase S, all other letters lowercase. Spell exactly T o o l S l a c k. Use a clear modern sans-serif wordmark.
+Constraints: Genuine alpha transparency, no background panel, no slogan, no drop shadow, no 3D, no watermark, no mockup. Create an original mark, do not use the Slack trademark or any existing company logo. Only one finished logo and the exact wordmark, no additional text or variants.

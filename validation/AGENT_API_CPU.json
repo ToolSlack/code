@@ -1,0 +1,42 @@
+{
+  "schema": "toolslack.agent-api-cpu-validation.v1",
+  "state": "passed",
+  "platform": "macOS arm64",
+  "packages": {
+    "langgraph": "1.2.11",
+    "langmem": "0.0.30",
+    "langchain-core": "1.6.4",
+    "transformers": "5.12.1"
+  },
+  "checks": [
+    "actual_compiled_langgraph_node",
+    "actual_official_langmem_summary_algorithm",
+    "benchmark_pinned_qwen_chat_template_token_counter",
+    "closed_selected_scope",
+    "protected_instructions_and_open_tool_suffix_preserved",
+    "stable_prefix_excludes_unresolved_dispatch",
+    "official_short_context_noop"
+  ],
+  "model_response": "deterministic_stub",
+  "exact_token_endpoint": "local_checkpoint_counter_stub",
+  "settings": {
+    "max_tokens": 8192,
+    "trigger_tokens": 4096,
+    "summary_tokens": 384
+  },
+  "input_scope_tokens": 6167,
+  "warnings": [
+    {
+      "category": "LangGraphDeprecatedSinceV10",
+      "message": "Importing Send from langgraph.constants is deprecated. Please use 'from langgraph.types import Send' instead. Deprecated in LangGraph V1.0 to be removed in V2.0."
+    }
+  ],
+  "model_quality_validated": false,
+  "GPU_operations": 0,
+  "performance_evidence": false,
+  "source_sha256": {
+    "toolslack/langgraph_adapter.py": "24c0dc3e5fdaff51bd6a30fe9383e474a66e7fee577b0e060c2d0de63f5a80ec",
+    "benchmark/langgraph_hotpot.py": "133f710a6e531b3753607db25fb554d8381636c9b7b7db87c3d101421ebd218e"
+  },
+  "native_algorithm_source_sha256": "baf92ea6dec88a03b399514ed461930dd8636e46d4413a3512f6df04a3625657"
+}

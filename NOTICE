@@ -1,0 +1,7 @@
+ToolSlack
+Copyright 2026 ToolSlack Authors.
+
+ToolSlack-authored artifact components are offered under the Apache License, Version 2.0.
+The bundled SGLang engine retains its original copyright, SPDX headers and Apache license; see vendor/native_engine/NOTICE and LICENSE.
+Downloaded HotpotQA data is CC BY-SA 4.0; its official evaluation code is Apache-2.0. Qwen3-8B is Apache-2.0. Their notices are downloaded with the pinned resources.
+Third-party files retain their original terms; this notice does not replace those terms.

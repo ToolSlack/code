@@ -1,0 +1,42 @@
+{
+  "schema": "toolslack.bootstrap-wheels.v1",
+  "version": "0.12.22",
+  "source": "https://pypi.org/pypi/uv/0.12.22/json",
+  "platforms": {
+    "Darwin-arm64": {
+      "filename": "uv-0.12.22-py3-none-macosx_11_0_arm64.whl",
+      "url": "https://files.pythonhosted.org/packages/1d/89/f147b5070d243f4fa5502c82ba9ec0194fa2bc01ebe3d61445e3710cb33d/uv-0.12.22-py3-none-macosx_11_0_arm64.whl",
+      "bytes": 17131195,
+      "sha256": "72516e1edef5950b556bdaf3b382f537e4249e06362378daa811a6eefc165a14",
+      "binary_path": "uv-0.12.22.data/scripts/uv"
+    },
+    "Darwin-x86_64": {
+      "filename": "uv-0.12.22-py3-none-macosx_10_12_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/4e/91/e1a20a1ed3aacbaae212cf827d05197dd65f8119f29fcddc8df167a9c98a/uv-0.12.22-py3-none-macosx_10_12_x86_64.whl",
+      "bytes": 21435736,
+      "sha256": "0247b8795348fe16fec7d143b2e4d91a953e69644993a557bb5238b9f53b6a28",
+      "binary_path": "uv-0.12.22.data/scripts/uv"
+    },
+    "Linux-x86_64-glibc": {
+      "filename": "uv-0.12.22-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/7a/b0/4cceeef80da0e8627bf3afb628930d5ea8e857f9c2aacbcda8598a5b82aa/uv-0.12.22-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 20587257,
+      "sha256": "680769ef701922dd93426b73476073411941f51ac46991a6e5c5a6efbf68a713",
+      "binary_path": "uv-0.12.22.data/scripts/uv"
+    },
+    "Linux-x86_64-musl": {
+      "filename": "uv-0.12.22-py3-none-musllinux_1_1_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/fc/78/d690e99b010464713adebd5df6b4f3332a46f0eb204631ba911b9f765da9/uv-0.12.22-py3-none-musllinux_1_1_x86_64.whl",
+      "bytes": 23480001,
+      "sha256": "31096da4ffd7d532909e046cf8acb606ad8e770019404b710a58310bec073119",
+      "binary_path": "uv-0.12.22.data/scripts/uv"
+    },
+    "Linux-aarch64": {
+      "filename": "uv-0.12.22-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl",
+      "url": "https://files.pythonhosted.org/packages/d0/ba/2d03d27e791f822cc6889b5d71cb6223136aaa6e3897ef01d923294148b2/uv-0.12.22-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl",
+      "bytes": 22169247,
+      "sha256": "972cb556d34372f4c19f5c8bba246c92c5a8bfda3f30b2a5b8e12fddd81ba441",
+      "binary_path": "uv-0.12.22.data/scripts/uv"
+    }
+  }
+}

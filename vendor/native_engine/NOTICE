@@ -1,0 +1,20 @@
+This directory contains a frozen SGLang Python source snapshot and ToolSlack
+native KV integration used by the dense Qwen3-8B experiment.
+
+SGLang upstream: https://github.com/sgl-project/sglang
+Upstream license: Apache License 2.0; see LICENSE.
+The original source copyright and SPDX notices are retained, including notices
+for code derived from Qwen, Hugging Face Transformers, and other upstream works.
+No separate upstream top-level NOTICE file was present in the inspected checkout.
+
+The snapshot includes custom exact-prefix lease, asynchronous native HiCache
+transfer, service-profile binding, and admitted-request headroom integration.
+The corresponding modules and their hashes are recorded in SOURCE_MANIFEST.json.
+This notice describes the snapshot; it does not establish a public Git base
+commit for the fork or certify compatibility with a newly installed GPU runtime.
+
+The original source snapshot was frozen for provenance. Artifact packaging changes
+such as modified-file notices should be recorded separately and should regenerate
+the distributed source manifest and service-profile binding.
+
+Artifact modification notice: project-specific KV namespace identifiers and associated module filenames were changed consistently to ToolSlack for anonymous review. Local packaging metadata was added for installation; upstream copyright headers remain.

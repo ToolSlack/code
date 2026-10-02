@@ -1,0 +1,135 @@
+{
+  "schema": "toolslack.cpu-validation.v1",
+  "platform": "macOS arm64",
+  "command": "./run.sh cpu",
+  "state": "passed",
+  "total_tests": 227,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "suites": {
+    "core": {
+      "tests_run": 70,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "successful": true,
+      "failed_test_ids": [],
+      "skipped_test_ids": [],
+      "expected_tests": 70
+    },
+    "proxy": {
+      "tests_run": 69,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "successful": true,
+      "failed_test_ids": [],
+      "skipped_test_ids": [],
+      "expected_tests": 69
+    },
+    "benchmark_protocol": {
+      "tests_run": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "successful": true,
+      "failed_test_ids": [],
+      "skipped_test_ids": [],
+      "expected_tests": 9
+    },
+    "artifact_cli": {
+      "tests_run": 79,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "successful": true,
+      "failed_test_ids": [],
+      "skipped_test_ids": [],
+      "expected_tests": null
+    }
+  },
+  "machine": {
+    "os": "Darwin",
+    "os_release": "25.5.0",
+    "architecture": "arm64",
+    "logical_cpu_count": 15,
+    "python": "3.12.14",
+    "packages": {
+      "aiohttp": "3.12.15",
+      "langgraph": "1.2.11",
+      "langmem": null,
+      "langchain-core": "1.6.4",
+      "transformers": null,
+      "httpx": "0.28.1",
+      "torch": null,
+      "sglang": null
+    },
+    "hostname_recorded": false,
+    "username_recorded": false,
+    "personal_paths_recorded": false
+  },
+  "native_source": {
+    "schema": "toolslack.native-source-cpu-receipt.v1",
+    "verified_manifest_files": 1563,
+    "parsed_python_files": 1095,
+    "parser_feature_version": "3.11",
+    "checks": [
+      "source_manifest_integrity",
+      "source_parse",
+      "renamed_native_route_and_profile_env",
+      "nonexistent_request_status_schema",
+      "profile_binding",
+      "idempotent_replay",
+      "idempotency_conflict",
+      "profile_mismatch"
+    ],
+    "GPU_operations": 0,
+    "imports_engine": false,
+    "validates_fresh_gpu_installation": false
+  },
+  "bootstrap": {
+    "uv": "0.12.22",
+    "python": "3.12.14",
+    "uses_pip": false,
+    "official_wheel_download_and_checksum_verified": true,
+    "managed_python_download_verified": true,
+    "final_successful_cpu_run_reuses_environment_from_clean_bootstrap": true
+  },
+  "tested_files_sha256": {
+    "run.sh": "4424b5f3a0946710fde6da0e92b78cc35bf73892fde357b4917d6d45ecfeedfc",
+    "scripts/bootstrap.sh": "46cdd70cdf6880fb7518c94583ec51ebc2432033db5c31c667088f4c291b99a1",
+    "scripts/bootstrap_uv.py": "24899f258696aec0be75e930fe2e687c0d3efca463b362533e024e884573dd55",
+    "scripts/verify_native_source.py": "2630c6a348a4267861aca8c97bef77657462c6d0ff17d3c08a2c33e59bdb3f85",
+    "artifact/runner.py": "c81c0c02c9f955275a0a6b4a75aaad47fb8ab95590d1c1c3096bbedafc0f40ed",
+    "artifact/native.py": "6103f78f8c58bc81ce53bf04593168f45d75bc2b1abe947f143996fc03b50cff",
+    "artifact/resources.py": "8742ef1125f0d68b541a0c48a12f0315821de332451fe569441918d9207f25a4",
+    "artifact/report.py": "fb1b96f8a2ac5bae802679b255495892ac95ee7e0612aff7c588d5f597c534fe",
+    "requirements/bootstrap-wheels.json": "3d8ebc7c9a04d9641b0963ec3a70c3eccd372413d0f5c573671daad85e1b2d57",
+    "requirements/bootstrap.lock": "f6ce2ae536f867c7f0151bb2d339f7c1e261cac417b26f3602e7bfc380fc3988",
+    "requirements/cpu.lock": "8ba4af3d4a2bc74d651ef092789b09a12aa6ec5b56e30f52c51c77606c7bb648",
+    "requirements/agent.lock": "68705ad9537e8ec942901649572911108b05a306e97623d0d23f7074be9b6998",
+    "requirements/engine.lock": "c043d981a236b783a316bd794bef1999902c2a1f6f3016d82ff9d0663a4a9659",
+    "backend/proxy_v16/test_terminal_http.py": "eee43bdc753d2021071dccb70be5cf20c060bef7c4cb078bb371164928a2df45",
+    "backend/proxy_v16/test_candidate_control_http.py": "ff2dee8fcbadbf1cff9ec01df480bac91518693f3221ddf7601c9c05b24133a1"
+  },
+  "GPU_operations": 0,
+  "GPU_performance_validated": false,
+  "additional_validation": {
+    "bootstrap_path_with_spaces": {
+      "state": "passed",
+      "offline": true,
+      "dependency_packages_checked": 46,
+      "python": "3.12.14",
+      "bootstrap_sh_sha256": "67daa3251d20eab752febac933c3484e8aeadee41fe0dea53f90d033b8e48faa"
+    }
+  }
+}

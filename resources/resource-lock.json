@@ -1,0 +1,104 @@
+{
+  "cohort": {
+    "claim": "New public deterministic artifact cohort; not the original paper sample.",
+    "default_calibration_tasks": 3,
+    "default_evaluation_tasks": 16,
+    "seed": 20260930,
+    "selection": "sort unique HotpotQA IDs lexicographically, shuffle using Python random.Random(seed), take disjoint calibration then evaluation prefixes"
+  },
+  "dataset": {
+    "configuration": "distractor",
+    "expected_rows": 7405,
+    "files": [
+      {
+        "bytes": 27452575,
+        "hash_provenance": "hf-lfs-oid-and-actual-download",
+        "path": "source/hotpot_dev_distractor.parquet",
+        "sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+        "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/1908d6afbbead072334abe2965f91bd2709910ab/distractor/validation-00000-of-00001.parquet"
+      },
+      {
+        "bytes": 9522,
+        "hash_provenance": "pinned-revision-actual-download",
+        "path": "source/dataset-card.md",
+        "sha256": "3cfab003a856275d3198b031c6b2ac46c63178fb462a4123705f652b71b22813",
+        "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/1908d6afbbead072334abe2965f91bd2709910ab/README.md"
+      }
+    ],
+    "license": "CC-BY-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "mirror_url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+    "prepared_format": "original HotpotQA JSON with isolated label-free JSONL agent inputs",
+    "repository": "hotpotqa/hotpot_qa",
+    "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+    "source_format": "Hugging Face parquet",
+    "source_url": "https://hotpotqa.github.io/",
+    "split": "validation"
+  },
+  "evaluator": {
+    "files": [
+      {
+        "bytes": 4257,
+        "hash_provenance": "pinned-revision-actual-download",
+        "path": "evaluator/hotpot_evaluate_v1.py",
+        "sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0",
+        "url": "https://raw.githubusercontent.com/hotpotqa/hotpot/3635853403a8735609ee997664e1528f4480762a/hotpot_evaluate_v1.py"
+      },
+      {
+        "bytes": 11338,
+        "hash_provenance": "pinned-revision-actual-download",
+        "path": "evaluator/LICENSE.txt",
+        "sha256": "9c264489d021e5905c0544f75e292c63f78dca56acd2aec395dd36dcc41940c7",
+        "url": "https://raw.githubusercontent.com/hotpotqa/hotpot/3635853403a8735609ee997664e1528f4480762a/LICENSE.txt"
+      }
+    ],
+    "license": "Apache-2.0",
+    "repository": "hotpotqa/hotpot",
+    "revision": "3635853403a8735609ee997664e1528f4480762a"
+  },
+  "schema": "toolslack.public-resource-lock.v1",
+  "tokenizer": {
+    "chat_template_source": "tokenizer_config.json embedded chat_template",
+    "files": [
+      {
+        "bytes": 11422654,
+        "hash_provenance": "hf-lfs-oid-and-actual-download",
+        "path": "tokenizer.json",
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer.json"
+      },
+      {
+        "bytes": 9732,
+        "git_blob_oid": "417d038a63fa3de29cfde265caedae14d1a58d92",
+        "hash_provenance": "pinned-revision-actual-download",
+        "path": "tokenizer_config.json",
+        "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json"
+      },
+      {
+        "bytes": 728,
+        "git_blob_oid": "d46195ac87f837ad233d02b2f80f148bf7c005e0",
+        "hash_provenance": "pinned-revision-actual-download",
+        "path": "config.json",
+        "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/config.json"
+      },
+      {
+        "bytes": 11343,
+        "git_blob_oid": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+        "hash_provenance": "pinned-revision-actual-download",
+        "path": "LICENSE",
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "url": "https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/LICENSE"
+      }
+    ],
+    "license": "Apache-2.0",
+    "model_weights_included": false,
+    "repository": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "verification": {
+    "description": "All SHA256 values were computed from actual HTTPS downloads at the pinned revisions. LFS files additionally match the SHA256 object OID from the pinned Hugging Face API tree.",
+    "status": "downloaded-and-sha256-frozen"
+  }
+}

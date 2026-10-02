@@ -1,0 +1,88 @@
+{
+  "schema": "toolslack.artifact-validation-summary.v1",
+  "prepared_at_utc": "2026-10-02T08:16:53Z",
+  "CPU": {
+    "Linux_x86_64": {
+      "state": "passed",
+      "tests": 227,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "receipt": "validation/CPU_LINUX.json",
+      "runtime_files_match_final_artifact": true,
+      "bootstrap_cache_prefills": [
+        "verified_official_uv_wheel",
+        "verified_official_managed_python_archive"
+      ],
+      "cold_network_bootstrap_validated": false
+    },
+    "macOS_arm64": {
+      "state": "passed",
+      "tests": 227,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "receipt": "validation/CPU_MACOS.json",
+      "full_suite_precedes_two_line_bootstrap_path_quoting_fix": true,
+      "fixed_bootstrap_path_with_spaces_check": "passed"
+    }
+  },
+  "native_source": {
+    "verified_files": 1563,
+    "parsed_python_files": 1095,
+    "GPU_engine_imported": false
+  },
+  "agent_API": {
+    "state": "passed",
+    "receipt": "validation/AGENT_API_CPU.json",
+    "actual_official_langmem_algorithm": true,
+    "actual_compiled_langgraph_node": true,
+    "default_benchmark_memory_thresholds": true,
+    "model_response": "deterministic_stub",
+    "model_quality_validated": false,
+    "performance_evidence": false
+  },
+  "public_resources": {
+    "state": "verified-real-public-resources",
+    "receipt": "resources/VALIDATION.json",
+    "hotpotqa_rows": 7405,
+    "official_scorer_imported": true,
+    "pinned_qwen_tokenizer_executed": true,
+    "model_weights_downloaded": false,
+    "cache_distributed": false
+  },
+  "GPU": {
+    "fresh_native_engine_installation": "not_validated",
+    "smoke": "not_run",
+    "full_benchmark": "not_run",
+    "native_DMA_payload_correctness": "not_validated",
+    "paper_performance_reproduction": "not_validated",
+    "compute_jobs_started": 0,
+    "server_availability_observation": {
+      "visible_devices": 8,
+      "devices_with_existing_compute_processes": 8
+    }
+  },
+  "scope": {
+    "model": "Qwen3-8B",
+    "framework": "LangGraph / LangMem",
+    "dataset": "HotpotQA distractor validation",
+    "full_paper_matrix_covered": false,
+    "default_cohort_is_original_paper_sample": false,
+    "archived_V4_cohort": "optional exploratory cohort; not established as final paper sample"
+  },
+  "changes_since_Linux_tested_archive": [
+    "README validation documentation",
+    "additional validation JSON receipts"
+  ],
+  "hosting": {
+    "github_repository_created": false,
+    "anonymous_hosting_choice_pending": true
+  },
+  "identity": {
+    "hostname_included": false,
+    "username_included": false,
+    "original_git_history_included": false,
+    "connection_configuration_included": false
+  }
+}

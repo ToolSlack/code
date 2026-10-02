@@ -1,0 +1,63 @@
+{
+  "agent_fields": [
+    "_id",
+    "question",
+    "context"
+  ],
+  "benchmark_counter_matches_native_template": true,
+  "calibration_count": 3,
+  "cohort_claim": "New public deterministic artifact cohort; not the original paper sample.",
+  "cohort_disjoint": true,
+  "cohort_sha256": "cdfafddba848b8f0e6bedb2e8cdd956e4b45df86b876c608555aa8149ae73548",
+  "cpu_resource_tests": {
+    "errors": 0,
+    "failures": 0,
+    "network_used": false,
+    "run": 15
+  },
+  "dataset_revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+  "evaluation_count": 16,
+  "evaluator_revision": "3635853403a8735609ee997664e1528f4480762a",
+  "gold_absent_from_read_tasks": true,
+  "gpu_operations": 0,
+  "gpu_performance_claim": null,
+  "helper_https_download_verified": true,
+  "model_weights_downloaded": false,
+  "native_chat_template_token_count": 18,
+  "official_evaluator_imported": true,
+  "prepared_sha256": {
+    "agent_inputs/distractor.jsonl": "291b269e53aedfe6c4a1823a82649d6530a1f1b6328a9468207b6a2b90712cc6",
+    "evaluation/hotpot_dev_distractor_v1.json": "674e6c8b4e8c7e020ddd59b9b9b801966c663ae170d4e177a214b8c8c6439e7e"
+  },
+  "resource_lock_sha256": "0cb5873401afa79162b5b1c0a04dd1b3d10866d06097932d234d8bf73d15ae2e",
+  "resource_sha256": {
+    "dataset": {
+      "source/dataset-card.md": "3cfab003a856275d3198b031c6b2ac46c63178fb462a4123705f652b71b22813",
+      "source/hotpot_dev_distractor.parquet": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6"
+    },
+    "evaluator": {
+      "evaluator/LICENSE.txt": "9c264489d021e5905c0544f75e292c63f78dca56acd2aec395dd36dcc41940c7",
+      "evaluator/hotpot_evaluate_v1.py": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0"
+    },
+    "tokenizer": {
+      "LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "config.json": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+      "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    }
+  },
+  "row_count": 7405,
+  "schema": "toolslack.public-resource-validation.v1",
+  "source_gold_policy": "Unmodified official annotations, including the source anomaly, retained solely in scoring gold.",
+  "source_gold_reference_anomalies": 1,
+  "state": "verified-real-public-resources",
+  "tokenizer_class": "Qwen2Tokenizer",
+  "tokenizer_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "tokenizer_vocabulary": 151669,
+  "validation_runtime_versions": {
+    "jinja2": "3.1.6",
+    "pyarrow": "21.0.0",
+    "transformers": "5.12.1",
+    "ujson": "5.10.0"
+  }
+}
